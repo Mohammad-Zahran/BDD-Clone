@@ -23,17 +23,17 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 100;
 }
 
-.navbar img {
-    width: 94px;
-    height: 127px;
+.nav-right {
+    display: flex;
+    align-items: center;
 }
+
 
 .navbar ul {
     list-style: none;
@@ -43,18 +43,26 @@ body {
 
 .navbar ul li a {
     text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 14px;
+    color: #FFFFFF;
+    font-size: 20px;
 }
 
+.navbar ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Translucent white hover effect */
+    padding: 15px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+/* Join button */
 .join-btn {
-    background-color: #007bff;
+    background-color: #0078be;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 30px;
     text-decoration: none;
-    border-radius: 5px;
-    font-size: 14px;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-left: 20px; 
 }
 
 /* Hero section styles */
@@ -63,10 +71,10 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh; /* Ensure full height */
+    height: 100vh; 
     color: white;
     position: relative;
-    z-index: 1; /* Keep hero content above background */
+    z-index: 1; 
 }
 
 .hero-content {
@@ -81,3 +89,4 @@ body {
 .hero-content p {
     font-size: 24px;
 }
+
