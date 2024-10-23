@@ -94,6 +94,7 @@ body {
 
 .foundation-content {
     margin-top: 40px;
+    margin-bottom: 80px;
 }
 
 .foundation-content h1{
@@ -172,3 +173,69 @@ body {
 }
 
 /* I went to the website I found the opacities of the hovers so I went to chatgpt to give me the right opacity/*
+
+/* Vision Section */
+
+.vision-section {
+    background-image: url('../assets/images/Shared-Space-at-BDD.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    padding-top: 50px; 
+}
+
+.vision-content {
+    text-align: center;
+}
+
+.vision-content h1 {
+    font-size: 3rem; 
+    color: white;
+    font-weight: bold; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); 
+    line-height: 1.2; 
+    max-width: 90%; 
+    margin: 0 auto; 
+}
+
+
+.video-container {
+    position: relative; 
+    text-align: center; 
+    margin-top: 100px;
+}
+
+.video-thumbnail {
+    width: 100%; 
+    max-width: 600px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    transition: opacity 0.3s; 
+}
+
+.video-iframe {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    border: none; 
+    opacity: 0; 
+    transition: opacity 0.3s; 
+}
+
+
+.video-container:hover .video-iframe {
+    opacity: 1; 
+}
+
+.video-container:hover .video-thumbnail {
+    opacity: 0; 
+}
+
+/* I used chatgpt to help me with adding a thumbnail /*
+
+
+
+
