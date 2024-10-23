@@ -465,8 +465,47 @@ body {
 }
 
 .community-download img {
-    margin: 10px;
+    margin-left: 90px;
     width: 280px
 }
+
+/* HUB Section */
+
+.hub-section {
+    background-image: url('../assets/images/parallax-light.jpg');
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    height: 65vh;
+    position: relative;
+    padding-top: 50px; 
+    overflow: hidden; 
+    margin-top: 50px;
+}
+
+.hub-content > h1 {
+    text-align: center;
+}
+
+.hub-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 110px;
+}
+
+.hub-item {
+    width: 40px;
+}
+
+.hub-item > h1 {
+    width: 400px;
+}
+
+.hub-item > img {
+    width: 100px;
+    height: 110px;
+}
+
+
 
 
