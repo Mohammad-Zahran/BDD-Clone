@@ -451,7 +451,6 @@ body {
     background-color: #005f90;
 }
 
-
 .community-download {
     text-align: center;
     margin-top: 40px;
@@ -470,7 +469,6 @@ body {
 }
 
 /* HUB Section */
-
 .hub-section {
     background-image: url('../assets/images/parallax-light.jpg');
     background-size: cover;
@@ -504,6 +502,85 @@ body {
 .hub-item > img {
     width: 100px;
     height: 110px;
+}
+
+/* Trending Section */
+
+.trending-section {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+}
+
+.trending-content h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.trending-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.trending-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    width: 450px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.trending-item img {
+    width: 100%;
+    height: auto;
+}
+
+.trending-item p {
+    padding: 15px;
+    font-size: 20px;
+    color: #555;
+    display: flex;
+    justify-content: start;
+}
+
+.trending-item p:first-of-type {
+    font-weight: bold;
+    color: #222;
+}
+
+.trending-item p:last-of-type {
+    font-size: 14px;
+    color: #888;
+}
+
+.trending-section > button {
+    background-color: #0078be; 
+    color: white; 
+    padding: 15px 30px; 
+    text-decoration: none; 
+    border-radius: 25px; 
+    font-size: 16px; 
+    margin-left: 20px; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    display: block; 
+    margin: 30px auto; 
+}
+
+
+.trending-section > button:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 10px rgba(0, 120, 190, 0.5); /* Add a glow effect when focused */
+}
+
+.trending-section button:hover {
+    background-color: #005f90;
 }
 
 
