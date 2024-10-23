@@ -90,3 +90,85 @@ body {
     font-size: 24px;
 }
 
+/* Foundation Section */
+
+.foundation-content {
+    margin-top: 40px;
+}
+
+.foundation-content h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.foundation-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.foundation {
+    background-color: #ffffff;
+    border: 2px solid #ddd; 
+    border-radius: 10px; 
+    padding: 20px;
+    width: calc(20% - 20px); /* I took this in chat gpt to Ensure the cards are equally spaced */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+
+
+.foundation img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.foundation h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold; 
+}
+
+.foundation p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 150px; 
+}
+
+.foundation:hover {
+    transition: .5s;
+}
+
+#f1:hover {
+    background-color: rgba(0, 120, 190, 0.1); /* #0078be with 10% opacity */
+}
+
+#f2:hover {
+    background-color: rgba(0, 148, 158, 0.1); /* #00949e with 10% opacity */
+}
+
+#f3:hover {
+    background-color: rgba(0, 128, 45, 0.1); /* #00802d with 10% opacity */
+}
+
+#f4:hover {
+    background-color: rgba(161, 183, 0, 0.1); /* #a1b700 with 10% opacity */
+}
+
+#f5:hover {
+    background-color: rgba(255, 56, 112, 0.1); /* #ff3870 with 10% opacity */
+}
+
+/* I went to the website I found the opacities of the hovers so I went to chatgpt to give me the right opacity/*
