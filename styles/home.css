@@ -1,4 +1,5 @@
 /* General reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -194,6 +195,7 @@ body {
     background-image: url('../assets/images/Shared-Space-at-BDD.png');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
     position: relative;
     padding-top: 50px; 
@@ -493,11 +495,15 @@ body {
 
 .hub-item {
     width: 40px;
+    margin-right: 100px;
 }
 
 .hub-item > h1 {
-    width: 400px;
+    width: 300px;
+    font-size: 18px;
 }
+
+
 
 .hub-item > img {
     width: 100px;
